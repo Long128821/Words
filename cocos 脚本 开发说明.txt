@@ -1,0 +1,95 @@
+【Cocos 2D-X版本】
+（1）、新建Cocos2D-X项目
+	1、使用Python模板
+	python cocos.py new Test -p com.coco2dx.org -l cpp -d E:\MyProjects\Cocos2D-X\Projects
+	2、使用Cocos命令
+	cocos new Test -p org.cocos2dx.hellocpp -l cpp -d E:\MyProjects\Cocos2D-X\Projects
+	3、使用create_project.py模板
+	create_project.py -project 项目名字 -package 包名 -language cpp
+create_project.py -project Popodino -package cn.qinghu.games -language cpp
+create_project.py -project DiabloWorldClient -package cn.qinghu.games -language cpp
+create_project.py -project DiabloWorldServer -package cn.qinghu.games -language cpp
+create_project.py -project DiabloWorldAdmin -package cn.qinghu.games -language cpp
+create_project.py -project ChineseChess -package cn.qinghu.games -language cpp
+create_project.py -project FlappyBird -package cn.qinghu.games -language cpp
+create_project.py -project Excalibur -package cn.qinghu.games -language cpp
+create_project.py -project StrangeAdventure -package cn.qinghu.games -language cpp
+create_project.py -project CatDog -package cn.qinghu.games -language cpp
+create_project.py -project  Tetris -package cn.qinghu.games -language cpp
+create_project.py -project  Wrestle -package cn.qinghu.games -language cpp
+create_project.py -project  Ninja -package cn.qinghu.games -language cpp
+create_project.py -project  Match3 -package cn.qinghu.games -language cpp
+create_project.py -project  TapSonic -package cn.qinghu.games -language cpp
+create_project.py -project  TableTennis -package cn.qinghu.games -language cpp
+
+cocos new Excalibur -p cn.qinghu.games -l cpp -d E:\MyProjects\Cocos2D-X\Projects
+
+cocos new Gesture -p cn.qinghu.games -l cpp -d E:\MyProjects\Cocos2D-X\Projects\V3.0rc0
+cocos new FileUtils -p cn.qinghu.games -l cpp -d E:\MyProjects\Cocos2D-X\Projects\V3.0rc0\PersistentData
+
+python cocos.py new CrossyStreet -p cn.qinghu.games -l cpp -d E:\MyProjects\Cocos2D-X\Projects\V3.3rc0\
+
+python cocos.py new Tetris -p cn.qinghu.games -l cpp -d E:\MyProjects\Cocos2D-X\Projects\V3.5\
+
+Gesture
+
+$(ProjectDir)..\..\..\cocos2dx\support
+
+chinese chess
+
+//设置APK的朝向【横屏、竖屏】
+使用文本编辑器，打开proj.android/AndroidManifest.xml文件，
+修改android:screenOrientation变量的值
+【横屏:landscape  竖屏:portrait】
+
+//打包成APK
+cocos compile -p android --ap 20
+
+cocos compile -p android -j 4
+			【Cocos 2D-JS版本】
+打开系统变量的步骤：
+我的电脑-->右击属性-->高级-->环境变量-->一般操作下面的系统变量。
+1、安装python，安装路径为:"D:\MyProject\Python27"。添加系统变量path的值;D:\MyProject\Python27
+2、安装JDK，安装路径为:"D:\MyProject\Java\jdk1.7.0_67"
+3、添加系统变量：JAVA_HOME，并设置其值：D:\MyProject\Java\jdk1.7.0_67
+3、添加path变量的值：%JAVA_HOME%/bin;
+4、将ant解压，解压路径为：D:\MyProject\apache-ant-1.9.2
+5、添加新的环境变量：ANT_HOME，其值为：D:\MyProject\apache-ant-1.9.2
+6、添加新的环境变量：ANT_ROOT，其值为：D:\MyProject\apache-ant-1.9.2\bin
+7、添加path变量的值：%ANT_HOME%/bin;
+8、配置cocos开发环境，将cocos代码解压，解压路径为：D:\MyProject\cocos2d-js-v3.1
+11、为系统变量path，添加值：D:\MyProject\cocos2d-js-v3.1\tools\cocos2d-console\bin
+注意：JAVA_HOME、ANT_HOME和ANT_ROOT 后面一定没有分号。
+
+压缩JS
+1、下载google closure compiler压缩工具，路径：D:\MyProject\closure-compiler；
+2、修改项目的build.xml文件：
+<taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="../closure-compiler/compiler.jar"/>
+3、修改classpath compiler.jar文件的路径信息变量：classpath【在google closure compiler文件夹中】
+4、在build.xml文件中，修改要压缩的文件cocos2d-js-v3.1-lite.js路径信息：
+<file name="cocos2d-js-v3.1-lite.js"/>
+5、切换到对应的项目路径下，打开命令窗口输入ant
+
+
+//切换路径
+cd /d E:\MyProjects\Cocos2D-JS\cocos2d-x-3.13.1\tools\cocos2d-console\bin
+
+//生成一个最简新项目Hello,路径:D:\MyProject\Hello
+cocos new E:\MyProjects\Cocos2D-JS\Hello -l js --no-native
+
+cocos new FishGame -l cpp --no-native -d E:\MyProjects\Cocos2D-X
+
+//完整版
+cocos new Hello -l js
+
+//命令行切换到项目文件夹D:\MyProject\Hello下，编译、运行该项目
+cd /d D:\MyProject\Hello
+cocos compile -p web
+cocos run -p web
+
+//生成release版本
+cocos compile -p web -m release
+
+//切换到release版本下,并运行
+cd /d D:\MyProject\Hello\publish\html5
+cocos run -p web

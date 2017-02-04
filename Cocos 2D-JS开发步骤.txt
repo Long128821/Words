@@ -1,0 +1,6 @@
+1、安装Cocos Studio V1.6.0以上版本;
+2、安装WebStorm;
+3、安装JDK;
+4、配置JDK的系统变量Path、JAVA_HOME;
+5、安装ANT、配置ANT_HOME、ANT_ROOT;
+6、此时Cocos应该配置成功，所以可以使用命令符，创建新项目
