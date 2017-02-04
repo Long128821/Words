@@ -14,5 +14,16 @@
 //Todo:删除JQ包
 
 APPID:wx531b94133ab96c22
+商户Key:liulisdflksflk559607ngwer2349046
 
 公司wifi:20140901
+
+http://h5.tongqutongqu.cn/index.html
+
+支付
+1、进入游戏，默认登录，拿到openID(简单);
+2、支付之前,登录一下(麻烦)
+
+白名单;
+1、单独的支付页面;
+2、配置白名单，每个游戏都添加到对应的目录下;
