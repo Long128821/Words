@@ -2,14 +2,22 @@
 昵称:long128821
 密码:128821
 
-119——10.10.0.119:65031
-120——10.10.0.120:65002
-刘哥——10.10.0.66:65031
-公网——123.57.72.206:65002
-善良——10.10.0.200:65032
+因为h5需要使用代理，所以使用的端口号和APP所使用的不一致
+APP的端口号:65002
+H5的端口号:65031
+
+119——10.10.0.119
+120——10.10.0.120
+刘哥——10.10.0.66
+公网——123.57.72.206
+善良——10.10.0.200
+文涛——10.10.0.128
+H5同趣服务器——http://h5.tongqutongqu.cn/
+
 同趣——https://testdb.tongqutongqu.cn:8443/
 扎金花大厅——ssh://xuxinlong@testdb.tongqutongqu.cn:29418/TQJinHuaForLua.git
 炸金花牌桌——ssh://xuxinlong@testdb.tongqutongqu.cn:29418/Module_jinhua.git
+最后一笔充值成功——http://10.10.0.120:8090/tqAdmin/MatchV4RechargeAction.do
 
 //Todo:删除JQ包
 
@@ -18,8 +26,6 @@ APPID:wx531b94133ab96c22
 
 公司wifi:20140901
 
-http://h5.tongqutongqu.cn/index.html
-
 支付
 1、进入游戏，默认登录，拿到openID(简单);
 2、支付之前,登录一下(麻烦)
@@ -27,3 +33,10 @@ http://h5.tongqutongqu.cn/index.html
 白名单;
 1、单独的支付页面;
 2、配置白名单，每个游戏都添加到对应的目录下;
+
+Git
+xuxinlong
+128821
+
+扎金花UI工程
+https://svn.tongqutongqu.cn/svn/JinhuaDesign/
