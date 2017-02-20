@@ -18,13 +18,12 @@ H5同趣服务器——http://h5.tongqutongqu.cn/
 扎金花大厅——ssh://xuxinlong@testdb.tongqutongqu.cn:29418/TQJinHuaForLua.git
 炸金花牌桌——ssh://xuxinlong@testdb.tongqutongqu.cn:29418/Module_jinhua.git
 最后一笔充值成功——http://10.10.0.120:8090/tqAdmin/MatchV4RechargeAction.do
-
-//Todo:删除JQ包
+扎金花UI工程——https://svn.tongqutongqu.cn/svn/JinhuaDesign/
 
 APPID:wx531b94133ab96c22
 商户Key:liulisdflksflk559607ngwer2349046
 
-公司wifi:20140901
+公司wifi密码:20140901
 
 支付
 1、进入游戏，默认登录，拿到openID(简单);
@@ -38,5 +37,7 @@ Git
 xuxinlong
 128821
 
-扎金花UI工程
-https://svn.tongqutongqu.cn/svn/JinhuaDesign/
+AP21358571
+673045
+SL188892017021400002
+DNRSW547HG6W
