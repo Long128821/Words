@@ -19,6 +19,7 @@ H5同趣服务器——http://h5.tongqutongqu.cn/
 炸金花牌桌——ssh://xuxinlong@testdb.tongqutongqu.cn:29418/Module_jinhua.git
 最后一笔充值成功——http://10.10.0.120:8090/tqAdmin/MatchV4RechargeAction.do
 扎金花UI工程——https://svn.tongqutongqu.cn/svn/JinhuaDesign/
+炸金花H5(公司Git)——ssh://xxxx@testdb.tongqutongqu.cn:29418/TQH5ForJS.git
 
 APPID:wx531b94133ab96c22
 商户Key:liulisdflksflk559607ngwer2349046
