@@ -26,6 +26,11 @@ APPID:wx531b94133ab96c22
 
 公司wifi密码:20140901
 
+禅道
+http://z.tongqutongqu.cn/zentao/
+账户:xuxinlong
+密码:xxl123456
+
 支付
 1、进入游戏，默认登录，拿到openID(简单);
 2、支付之前,登录一下(麻烦)
